@@ -1,0 +1,53 @@
+
+SAMPLE RESUME
+
+Name: Alex Kumar
+Email: alex.kumar@example.com
+Phone: 9000000000
+
+CAREER OBJECTIVE
+Motivated Computer Science student seeking an entry-level position as a Python Developer or Data Analyst. Interested in developing software applications and solving real-world problems using programming and data analysis.
+
+EDUCATION
+Bachelor of Technology in Computer Science and Engineering
+Expected Graduation: 2027
+
+TECHNICAL SKILLS
+Programming Languages: Python, Java, C
+Database: SQL, MySQL
+Web Development: HTML, CSS, JavaScript, Flask
+Tools: Git, GitHub
+Data Analysis: Pandas, NumPy, Excel, Statistics
+Artificial Intelligence: Machine Learning, Scikit-learn
+
+PROJECTS
+
+1. Student Management System
+- Developed a student management application using Python and SQL.
+- Implemented student record storage and retrieval.
+- Practiced database operations and object-oriented programming.
+
+2. Student Performance Analysis
+- Used Python, Pandas, and NumPy to analyze student performance data.
+- Applied basic statistical methods to identify patterns.
+- Prepared data summaries using Excel.
+
+3. Basic Web Application
+- Created a web application using HTML, CSS, Python, and Flask.
+- Connected application features to a database.
+- Used Git to track project changes.
+
+SOFT SKILLS
+Communication
+Problem Solving
+Teamwork
+Time Management
+
+CERTIFICATIONS
+Python Programming - Sample Entry
+Introduction to Data Analytics - Sample Entry
+
+DECLARATION
+I declare that the information provided above is accurate for this sample resume.
+
+Note: This is fictional sample data created for testing the application.

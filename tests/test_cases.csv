@@ -1,0 +1,26 @@
+
+test_id,test_scenario,input_or_condition,expected_result
+TC01,Upload a valid PDF resume,PDF containing resume text,Resume text is extracted successfully
+TC02,Upload a valid DOCX resume,DOCX containing resume text,Resume text is extracted successfully
+TC03,Upload an unsupported file type,Upload an unsupported file,An appropriate error message is displayed
+TC04,Upload an empty resume,PDF or DOCX containing no readable text,Validation message is displayed
+TC05,Extract Python skill,Resume contains Python,Python is identified
+TC06,Extract SQL skill,Resume contains SQL,SQL is identified
+TC07,Extract multiple skills,Resume contains Python SQL and Flask,All listed skills are identified
+TC08,Resume matches a job role,Resume skills overlap with role requirements,A match score is calculated
+TC09,Resume has missing skills,Some required skills are absent,Missing skills are listed
+TC10,Resume has no matching skills,Resume has no relevant listed skills,A low or zero match score is returned
+TC11,Recommend suitable roles,Resume contains relevant technical skills,Matching job roles are ranked
+TC12,Generate a learning roadmap,One or more skills are missing,Learning recommendations are generated
+TC13,Display top recommendations,Several job roles are available,Up to three top roles are displayed
+TC14,Load an empty resume file,Resume file contains no readable content,Processing stops with a validation message
+TC15,Load job role dataset,job_roles.csv contains valid records,Job role data is loaded successfully
+TC16,Load skill dictionary,skill_dictionary.csv contains valid records,Skill data is loaded successfully
+TC17,Handle a malformed dataset,CSV has missing required columns,A clear validation error is reported
+TC18,Handle repeated skills,Resume mentions a skill multiple times,Skill is not counted repeatedly in the skill list
+TC19,Calculate skill match percentage,Some required skills match the resume,Score reflects the matched required skills
+TC20,Display analysis results,Resume analysis completes successfully,Recommended roles scores missing skills and roadmap are displayed
+TC21,Handle an unreadable document,PDF or DOCX cannot be read,An appropriate error is displayed
+TC22,Handle a large resume,Resume exceeds the configured upload limit,Upload is rejected with a clear message
+TC23,Download analysis report,Analysis results are available,Report is generated in the selected supported format
+TC24,Protect uploaded resume data,Resume is processed for analysis,Resume content is not intentionally exposed to other users

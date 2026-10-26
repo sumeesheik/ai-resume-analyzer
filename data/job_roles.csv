@@ -1,0 +1,9 @@
+
+job_role,required_skills,description
+Python Developer,"python,sql,git,oop,flask,api","Develop Python applications and backend services"
+Data Analyst,"python,sql,excel,power bi,statistics,pandas","Analyze data and create reports and dashboards"
+Machine Learning Engineer,"python,machine learning,statistics,pandas,numpy,scikit-learn,sql","Build and evaluate machine learning models"
+Web Developer,"html,css,javascript,python,flask,git,api","Develop and maintain web applications"
+AI Engineer,"python,machine learning,deep learning,numpy,pandas,api","Develop AI-powered applications and intelligent systems"
+Data Scientist,"python,sql,statistics,pandas,numpy,machine learning,scikit-learn","Analyze data and build predictive models"
+Backend Developer,"python,sql,flask,api,git,oop","Build server-side applications and APIs"
